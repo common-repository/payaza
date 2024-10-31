@@ -1,0 +1,342 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Payaza WooCommerce Payment Gateway\n"
+"POT-Creation-Date: 2023-05-02 17:27+0100\n"
+"PO-Revision-Date: 2023-05-04 17:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woo-payaza.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-wc-gateway-payaza.php:393
+msgid "Enable/Disable"
+msgstr ""
+
+#. translators: payment method title
+#: includes/class-wc-gateway-custom-payaza.php:17
+#, php-format
+msgid "Enable Payaza - %s"
+msgstr ""
+
+#: includes/class-wc-gateway-custom-payaza.php:19
+msgid "Enable this gateway as a payment option on the checkout page."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:401
+msgid "Title"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:403
+msgid ""
+"This controls the payment method title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:182
+#: includes/class-wc-gateway-payaza.php:357
+msgid "Payaza"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:408
+msgid "Description"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:410
+msgid ""
+"This controls the payment method description which the user sees during "
+"checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-custom-payaza.php:38
+#: includes/class-wc-gateway-payaza.php:423
+msgid "Payment Option"
+msgstr ""
+
+#: includes/class-wc-gateway-custom-payaza.php:40
+#: includes/class-wc-gateway-payaza.php:425
+msgid ""
+"Popup shows the payment popup on the page while Redirect will redirect the "
+"customer to Payaza to make payment."
+msgstr ""
+
+
+#: includes/class-wc-gateway-custom-payaza.php:222
+#: includes/class-wc-gateway-payaza.php:602
+msgid "Product(s) Purchased"
+msgstr ""
+
+
+#: includes/class-wc-gateway-custom-payaza.php:250
+#: includes/class-wc-gateway-payaza.php:360
+msgid "Return to payments"
+msgstr ""
+
+#. translators: link to Payaza developers settings page
+#: includes/class-wc-gateway-custom-payaza.php:258
+#, php-format
+msgid ""
+"Important: To avoid situations where bad network makes it impossible to "
+"verify transactions, set your webhook URL <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">here</a> to the URL below"
+msgstr ""
+
+#. translators: link to Payaza general settings page
+#: includes/class-wc-gateway-custom-payaza.php:269
+#, php-format
+msgid ""
+"To configure your Payaza API keys and enable/disable test mode, do that <a "
+"href=\"%s\">here</a>"
+msgstr ""
+
+#, php-format
+msgid ""
+"Payaza provide merchants with the tools and services needed to accept "
+"online payments from local and international customers using Mastercard, "
+"Visa, Verve Cards and Bank Accounts. <a href=\"%1$s\" target=\"_blank\">Sign "
+"up</a> for a Payaza account, and <a href=\"%2$s\" target=\"_blank\">get "
+"your API keys</a>."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:279
+#, php-format
+msgid ""
+"Payaza does not support your store currency. Kindly set it to either NGN "
+"(&#8358),  <a "
+"href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:321
+#, php-format
+msgid ""
+"Please enter your Payaza merchant details <a href=\"%s\">here</a> to be "
+"able to use the Payaza WooCommerce plugin."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:366
+#, php-format
+msgid ""
+"Optional: To avoid situations where bad network makes it impossible to "
+"verify transactions, set your webhook URL <a href=\"%1$s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">here</a> to the URL below<span style=\"color: red"
+"\"><pre><code>%2$s</code></pre></span>"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:379
+msgid "Payaza Payment Gateway Disabled"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:394
+msgid "Enable Payaza"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:396
+msgid "Enable Payaza as a payment option on the checkout page."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:404
+msgid "Payaza Checkout"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:411
+msgid "Make payment using your debit and credit cards"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:415
+msgid "Test mode"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:416
+msgid "Enable Test Mode"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:418
+msgid ""
+"Test mode enables you to test payments before going live. <br />Once the "
+"LIVE MODE is enabled on your Payaza account uncheck this."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:435
+msgid "Test Secret Key"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:437
+msgid "Enter your Test Secret Key here"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:441
+msgid "Test Public Key"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:443
+msgid "Enter your Test Public Key here."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:447
+msgid "Live Secret Key"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:449
+msgid "Enter your Live Secret Key here."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:453
+msgid "Live Public Key"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:455
+msgid "Enter your Live Public Key here."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:534
+msgid ""
+"If enabled, users will be able to pay with a saved card during checkout. "
+"Card details are saved on Payaza servers, not on your store.<br>Note that "
+"you need to have a valid SSL certificate installed."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:935
+msgid "Unable to process payment try again"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:1013
+#: includes/class-wc-gateway-payaza.php:1187
+#: includes/class-wc-gateway-payaza.php:1323
+#, php-format
+msgid ""
+"Thank you for shopping with us.%1$sYour payment transaction was successful, "
+"but the amount paid is not the same as the total order amount.%2$sYour order "
+"is currently on hold.%3$sKindly contact us for more information regarding "
+"your order and payment status."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:1020
+#: includes/class-wc-gateway-payaza.php:1194
+#: includes/class-wc-gateway-payaza.php:1330
+#, php-format
+msgid ""
+"<strong>Look into this order</strong>%1$sThis order is currently on hold."
+"%2$sReason: Amount paid is less than the total order amount.%3$sAmount Paid "
+"was <strong>%4$s (%5$s)</strong> while the total order amount is <strong>"
+"%6$s (%7$s)</strong>%8$s<strong>Payaza Transaction Reference:</strong> %9$s"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:1033
+#: includes/class-wc-gateway-payaza.php:1209
+#: includes/class-wc-gateway-payaza.php:1347
+#, php-format
+msgid ""
+"Thank you for shopping with us.%1$sYour payment was successful, but the "
+"payment currency is different from the order currency.%2$sYour order is "
+"currently on-hold.%3$sKindly contact us for more information regarding your "
+"order and payment status."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:1040
+#: includes/class-wc-gateway-payaza.php:1216
+#: includes/class-wc-gateway-payaza.php:1354
+#, php-format
+msgid ""
+"<strong>Look into this order</strong>%1$sThis order is currently on hold."
+"%2$sReason: Order currency is different from the payment currency.%3$sOrder "
+"Currency is <strong>%4$s (%5$s)</strong> while the payment currency is "
+"<strong>%6$s (%7$s)</strong>%8$s<strong>Payaza Transaction Reference:</"
+"strong> %9$s"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:1064
+#: includes/class-wc-gateway-payaza.php:1246
+msgid "Payment was declined by Payaza."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:1065
+msgid "Payment failed using the saved card. Kindly use another payment option."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:1069
+#, php-format
+msgid "Payment was declined by Payaza. Reason: %s."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:1070
+#, php-format
+msgid ""
+"Payment failed using the saved card. Reason: %s. Kindly use another payment "
+"option."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:1084
+msgid "Payment Failed."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:1095
+msgid "You can only add a new card when placing an order."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:1112
+msgid ""
+"Thank you for your order, please click the button below to pay with Payaza."
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:1114
+msgid "Pay Now"
+msgstr ""
+
+#: includes/class-wc-gateway-payaza.php:1117
+msgid "Cancel order &amp; restore cart"
+msgstr ""
+
+#: woo-payaza.php:69
+msgid "View Payaza WooCommerce Settings"
+msgstr ""
+
+#: woo-payaza.php:69
+msgid "Settings"
+msgstr ""
+
+#: woo-payaza.php:140
+#, php-format
+msgid ""
+"Payaza requires WooCommerce to be installed and active. Click %s to "
+"install WooCommerce."
+msgstr ""
+
+#. translators: 1. Payaza settings page URL link.
+#: woo-payaza.php:157
+#, php-format
+msgid ""
+"Payaza test mode is still enabled, Click <strong><a href=\"%s\">here</a></"
+"strong> to disable it when you want to start accepting live payment on your "
+"site."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Payaza WooCommerce Payment Gateway"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://payaza.africa"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WooCommerce payment gateway for Payaza"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Payaza"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://payaza.africa"
+msgstr ""
